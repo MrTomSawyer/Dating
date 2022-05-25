@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "types": ["node"],
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "outDir": "./dist",
+    "removeComments": false
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
